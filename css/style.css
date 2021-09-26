@@ -1,0 +1,96 @@
+body {
+    background-color: beige;
+    position: relative;
+}
+
+.right-container {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 100vh;
+    background-color: #3b959b;
+    padding: 20px 5px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px #303030;
+}
+
+.left-container {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    height:790px;
+    background-color: #3b959b;
+    padding: 20px 50px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px #303030;
+}
+
+.title {
+    font-family: 'Verdana', 'helvetica';
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+label {
+    font-family: 'Cambria';
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.inputfield {
+    margin: 2px 0px 20px 0px;
+    padding: 5px;
+    width: 300px;
+    background-color: whitesmoke;
+}
+
+#genderSelector {
+    margin: 2px 0px 20px 0px;
+    padding: 2px;
+    width: 170px;
+    background-color: whitesmoke;
+}
+
+#foodDiv {
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+th {
+    width: 110px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: beige;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .right-container {
+        position: absolute;
+        top: 900px;
+        right: 10px;
+        height: 200px;
+        background-color: #3b959b;
+        padding: 20px 50px;
+        border-radius: 30px;
+        box-shadow: 10px 5px 5px #303030;
+    }
+
+    .left-container {
+        position: absolute;
+        top: 5px;
+        left: 15vw;
+        height:790px;
+        background-color: #3b959b;
+        padding: 20px 50px;
+        border-radius: 30px;
+        box-shadow: 10px 5px 5px #303030;
+    }
+}
